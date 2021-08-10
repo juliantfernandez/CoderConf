@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-color: #19216E !important;
+}
+
+/*HEADER*/
+
+.coderconf-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.coderconf-header-title{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #C7D027;
+}
+
+.coderconf-header-title-conf{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+}
+
+.coderconf-nav{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.coderconf-nav-a{
+    text-decoration: none;
+    color: #C7D027;
+    margin-left: 35px;
+}
+
+.coderconf-nav-a-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    font-size: 25px;
+    font-weight: bold;
+    border: 0px black solid;
+    border-radius: 40px;
+    padding: 6px 45px;
+    letter-spacing: 1px;
+    margin-left: 75px;
+}
+
+/*MAIN*/
+
+.coderconf-section-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+.main-text-daleplay{
+    font-family: 'DM Sans', sans-serif;
+    color: #C7D027;
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 90px;
+    letter-spacing: 2px;
+}
+
+.main-numbers{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.main-numbers-letters{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 35px;
+    margin-left: 35px;
+}
+
+.main-text-speaker{
+    font-family: 'DM Sans', sans-serif;
+    color: #C7D027;
+    margin-top: 10%;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
