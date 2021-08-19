@@ -68,7 +68,13 @@
     font-family: 'DM Sans', sans-serif;
     color: white;
     margin-top: 10%;
-    font-size: 45px;
+    font-size: 60px;
+}
+
+.bg-rejillas{
+    background-image: url('media/rejilla.png');
+    background-repeat: no-repeat;
+    background-size: 1000px;
 }
 
 .main-text-daleplay{
@@ -84,11 +90,16 @@
     font-size: 150px;
     margin-left: 10%;
     letter-spacing: 3px;
+}
 
+.main-image-trianguloplay{
+    width: 75%;
 }
 
 .main-image2{
-    width: 30%;
+    width: 40%;
+    height: auto;
+
 }
 
 .main-numbers{
@@ -118,3 +129,44 @@
     letter-spacing: 2px;
 }
 
+/*SPEAKER SECTION*/
+
+.user-img{
+    width: 25%;
+    height: auto;
+}
+.speaker-user-description{
+    display: flex;
+    justify-content: space-around;
+}
+.user-name{
+    font-family: 'DM Sans', sans-serif;
+    color: #C7D027;
+    font-size: 15px;
+}
+
+.user-description{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.speaker-user-description-profesion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-description-profesion{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    width: 2%;
+}
+
+.bg-rejillas2{
+    background-image: url('media/rejilla.png');
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position-x: right;
+}
