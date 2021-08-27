@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>CoderConf</title>
 </head>
 <body>
-    <header class="coderconf-header container">
+    <header class="coderconf-header">
         <a href="index.html"><img src="media/coderconf-logo.png" alt="coderconf logo"></a>
-        <!-- <h1 class="coderconf-header-title">CODER<span class="coderconf-header-title-conf">CONF</span></h1> -->
         <nav class="coderconf-nav">
             <a class="coderconf-nav-a" href="#">Speaker</a>
             <a class="coderconf-nav-a" href="#">Agenda</a>
@@ -19,24 +19,35 @@
         </nav>
     </header>
     <main>
-        <section class="coderconf-section-main">
-            <img src="media/fondo1.png" class="main-image1"> 
+        <div class="bg-rejillas">
+        <section class="coderconf-section-main"> 
+            <img src="media/logo-dale-play.png" class="main-image1"> 
             <p class="main-text">Los mejores speaker en un ciclo<br>
             de charlas y conferencias</p>
-            </section>
-            <div class="bg-rejillas"> 
-            <div class="main-text-daleplay">
-                 <p class="main-text-daleplay-letter">Dale Play<br>
-                a tu futuro<br>
-                <img src="media/trianguloplay.png" class="main-image-trianguloplay">
-            </p>
-                 <img src="media/fondo2.png" class="main-image2"> 
-                
             
-                
+            </section>
+            
+            
+
+            <section class="section-faq"> 
+            <div>
+                <h4 class="title-faq">¿Cuántas charlas?</h4>
+                <p class="letters-faq">15 charlas a partir de<br> las 1O:OO am</p>
             </div>
 
-            <section class="container"> 
+            <div>
+                <h4 class="title-faq">¿Duración?</h4>
+                <p class="letters-faq">Las charlas varían según<br>las temáticas y speakers.</p>
+            </div>
+
+            <div>
+                <h4 class="title-faq">¿Temática?</h4>
+                <p class="letters-faq">Marketing, diseño, desarrollo,<br> producto, sustentabilidad y más.</p>
+            </div>
+            </section>
+            </div>
+
+            <section class="container-fluid" data-aos="fade-down"> 
             <div class="main-numbers">
                 <p>210</p>
                 <p>15</p>
@@ -44,77 +55,77 @@
             </div>
              <div class="main-numbers-letters">
                 <p>speaker</p>
-                <p>faltan</p>
+                <p>días</p>
                 <p>registrados</p>
             </div>
         </section>
+    </div>
+
+
+        <section data-aos="fade-down">
+            <h2 class="main-text-speaker container">Speaker</h2>
+            <div class="bg-rejillas2"> 
+            <div class="d-flex justify-content-center container-fluid">
+                <img class="user-img" src="media/user1.png">
+                <img class="user-img" src="media/user2.png">
+                <img class="user-img" src="media/user3.png">
+                <img class="user-img" src="media/user4.png">
+            </div>
+            <div class="speaker-user-description container-fluid">
+                <p class="user-name">Juan Pablo Dumas</p>
+                <p class="user-name">Milena Somer</p>
+                <p class="user-name">Daniela Guzman</p>
+                <p class="user-name">Felipe Olivo</p>
+            </div>
+            <div class="speaker-user-description container-fluid">
+                <p class="user-description">Licenciado en Publicidad</p>
+                <p class="user-description">Head of Growth Marketing</p>
+                <p class="user-description">Account Manager</p>
+                <p class="user-description">Co-Fundador & CEO</p>
+            </div>
+
+            <div class="speaker-user-description-profesion container-fluid">
+                <p class="user-description-profesion">Soluciones Creativas</p>
+                <p class="user-description-profesion">IBM</p>
+                <p class="user-description-profesion">Facebook</p>
+                <p class="user-description-profesion">ddd-eee</p>
+            </div>
+            <div class="d-flex justify-content-center container-fluid">
+                <img class="user-img" src="media/user1.png">
+                <img class="user-img" src="media/user2.png">
+                <img class="user-img" src="media/user3.png">
+                <img class="user-img" src="media/user4.png">
+            </div>
+            <div class="speaker-user-description container-fluid">
+                <p class="user-name">Juan Pablo Dumas</p>
+                <p class="user-name">Milena Somer</p>
+                <p class="user-name">Daniela Guzman</p>
+                <p class="user-name">Felipe Olivo</p>
+            </div>
+            <div class="speaker-user-description container-fluid">
+                <p class="user-description">Licenciado en Publicidad</p>
+                <p class="user-description">Head of Growth Marketing</p>
+                <p class="user-description">Account Manager</p>
+                <p class="user-description">Co-Fundador & CEO</p>
+            </div>
+
+            <div class="speaker-user-description-profesion container-fluid">
+                <p class="user-description-profesion">Soluciones Creativas</p>
+                <p class="user-description-profesion">IBM</p>
+                <p class="user-description-profesion">Facebook</p>
+                <p class="user-description-profesion">ddd-eee</p>
+            </div>
+        </div>
+        </section>
+        <div class="d-flex justify-content-center">
+            <img src="media/triangles/3.png" data-aos="fade-down"  class="triangle-3"> 
+        </div>
         
 
 
-        <section>
-            <h2 class="main-text-speaker container">Speaker</h2>
-            <div class="d-flex justify-content-center container-fluid bg-rejillas2">
-                <img class="user-img" src="media/user1.png">
-                <img class="user-img" src="media/user2.png">
-                <img class="user-img" src="media/user3.png">
-                <img class="user-img" src="media/user4.png">
-            </div>
-            <div class="speaker-user-description container-fluid">
-                <p class="user-name">Juan Pablo Dumas</p>
-                <p class="user-name">Milena Somer</p>
-                <p class="user-name">Daniela Guzman</p>
-                <p class="user-name">Felipe Olivo</p>
-            </div>
-            <div class="speaker-user-description container-fluid">
-                <p class="user-description">Licenciado en Publicidad</p>
-                <p class="user-description">Head of Growth Marketing</p>
-                <p class="user-description">Account Manager</p>
-                <p class="user-description">Co-Fundador & CEO</p>
-            </div>
+        <h2 class="main-text-speaker container" data-aos="fade-down">Agenda</h2>
 
-            <div class="speaker-user-description-profesion container-fluid">
-                <p class="user-description-profesion">Soluciones Creativas</p>
-                <p class="user-description-profesion">IBM</p>
-                <p class="user-description-profesion">Facebook</p>
-                <p class="user-description-profesion">ddd-eee</p>
-            </div>
-            <div class="d-flex justify-content-center container-fluid bg-rejillas2">
-                <img class="user-img" src="media/user1.png">
-                <img class="user-img" src="media/user2.png">
-                <img class="user-img" src="media/user3.png">
-                <img class="user-img" src="media/user4.png">
-            </div>
-            <div class="speaker-user-description container-fluid">
-                <p class="user-name">Juan Pablo Dumas</p>
-                <p class="user-name">Milena Somer</p>
-                <p class="user-name">Daniela Guzman</p>
-                <p class="user-name">Felipe Olivo</p>
-            </div>
-            <div class="speaker-user-description container-fluid">
-                <p class="user-description">Licenciado en Publicidad</p>
-                <p class="user-description">Head of Growth Marketing</p>
-                <p class="user-description">Account Manager</p>
-                <p class="user-description">Co-Fundador & CEO</p>
-            </div>
-
-            <div class="speaker-user-description-profesion container-fluid">
-                <p class="user-description-profesion">Soluciones Creativas</p>
-                <p class="user-description-profesion">IBM</p>
-                <p class="user-description-profesion">Facebook</p>
-                <p class="user-description-profesion">ddd-eee</p>
-            </div>
-        </section>
-
-        <section class="coderconf-section-main">
-            <img src="media/fondo3.png" class="main-image2">
-            <p class="main-text">Todo sobre marketing, diseño<br>
-            productos, desarrollo y más.</p>
-        </section>
-
-
-        <h2 class="main-text-speaker container">Agenda</h2>
-
-        <section class="container-fluid cards-agenda">
+        <section class="container-fluid cards-agenda" data-aos="fade-down">
 
             <div class="card-speaker">
                 <p class="card-hour">10:00</p>
@@ -146,20 +157,123 @@
                 <a class="card-button">agendar</a>
             </div>
         </section>
+
+        <section class="container-fluid cards-agenda" data-aos="fade-down">
+
+            <div class="card-speaker">
+                <p class="card-hour">10:00</p>
+                <img src="media/user1.png" class="card-img" alt="speaker juan pablo dumas">
+                <p class="card-main-text">¿Quiero ser consultor SEO.<br>
+                Por dónde empiezo?
+                </p>
+                <p class="card-name">Juan Pablo Dumas</p>
+                <a class="card-button">agendar</a>
+            </div>
+
+              <div class="card-speaker">
+                <p class="card-hour">11:00</p>
+                <img src="media/user2.png" class="card-img" alt="speaker juan pablo dumas">
+                <p class="card-main-text">Automatización de ventas<br>
+                con Marketing Automation
+                </p>
+                <p class="card-name">Milena Sommer</p>
+                <a class="card-button">agendar</a>
+            </div>
+
+            <div class="card-speaker">
+                <p class="card-hour">12:00</p>
+                <img src="media/user3.png" class="card-img" alt="speaker juan pablo dumas">
+                <p class="card-main-text">eCommerce: maximizar<br>
+                el retorno de marketing.
+                </p>
+                <p class="card-name">Daniela Guzman</p>
+                <a class="card-button">agendar</a>
+            </div>
+        </section>
+
+        <section class="container-fluid cards-agenda" data-aos="fade-down">
+
+            <div class="card-speaker">
+                <p class="card-hour">10:00</p>
+                <img src="media/user1.png" class="card-img" alt="speaker juan pablo dumas">
+                <p class="card-main-text">¿Quiero ser consultor SEO.<br>
+                Por dónde empiezo?
+                </p>
+                <p class="card-name">Juan Pablo Dumas</p>
+                <a class="card-button">agendar</a>
+            </div>
+
+              <div class="card-speaker">
+                <p class="card-hour">11:00</p>
+                <img src="media/user2.png" class="card-img" alt="speaker juan pablo dumas">
+                <p class="card-main-text">Automatización de ventas<br>
+                con Marketing Automation
+                </p>
+                <p class="card-name">Milena Sommer</p>
+                <a class="card-button">agendar</a>
+            </div>
+
+            <div class="card-speaker">
+                <p class="card-hour">12:00</p>
+                <img src="media/user3.png" class="card-img" alt="speaker juan pablo dumas">
+                <p class="card-main-text">eCommerce: maximizar<br>
+                el retorno de marketing.
+                </p>
+                <p class="card-name">Daniela Guzman</p>
+                <a class="card-button">agendar</a>
+            </div>
+        </section>
+
+        <section class=" dale-play-a-tu-futuro container" data-aos="fade-down">
+            <div> 
+            <img src="media/triangles/logo-chico.png" class="dale-play-logo">
+            <a class="btn-register">Registrate</a>
+        </div>
+        </section>
+
+        <section class="coderconf-event container" data-aos="fade-down">
+
+            <div class="coderconf-event-box">
+                <p class="coderconf-event-boxletter">CoderConf reúne en un mismo evento<br>
+                a expertos del mundo digital y reconocidos<br>
+                 de las empresas mejor posicionadas en el<br> mercado laboral</p>
+            </div>
+
+            <p class="coderconf-event-letter2">
+                CHICAS EN TECNOLOGÍA / WOLOX<br>
+                DOPPLER / IMB / TRAFILEA<br>
+                TIENDA NUBE / MERCADO PAGO<br>
+                OSTER ABOGADOS / RAPPI<br>
+                MOBILE FIRST & 47 STREET<br>
+                ASHOKA / AEOLAB / ANK / APPRENDO<br>
+                BRIDGE THE GAP / GOOGLE
+            </p>
+        </section>
         <br>
         <br>
         <br>
-
-
-
-
-
-        
     </main>
+
+    <footer class="container-fluid footer-coderconf d-flex justify-content-space-around">
+
+        <p class="footer-by">Diseño y Desarrollo:</p>
+
+        <img src="media/coderconf-logo.png">
+        
+        <div class="d-flex">
+        <p class="footer-letter">COMUNIDAD</p>
+        <p class="footer-letter">CONTACTO</p>
+        </div>
+    </footer>
     
 
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        offset: 300,
+        duration: 1100
+        });
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>

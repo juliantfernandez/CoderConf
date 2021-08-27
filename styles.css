@@ -14,8 +14,14 @@
 
 .coderconf-header{
     display: flex;
-    justify-content: space-between;
-    margin-top: 16px;
+    justify-content: space-around;
+    box-shadow: 0px 3px 8px 2px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 3px 8px 2px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 8px 2px rgba(0,0,0,0.35);
+    width: 100%;
+    height: 65px;
+    background-color: #19216E;
+    margin-top: 2px;
 }
 
 .coderconf-header-title{
@@ -34,6 +40,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 25px;
     font-weight: 500;
+    margin-top: 10px;
     
 }
 
@@ -41,28 +48,43 @@
     text-decoration: none;
     color: #C7D027;
     margin-left: 35px;
+    margin-right: 75px;
 }
 
 .coderconf-nav-a-button{
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+    background-image: linear-gradient(90deg, #fee140 0%, #FA709A 100%);
     font-size: 25px;
     font-weight: bold;
     border: 0px black solid;
-    border-radius: 40px;
-    padding: 6px 45px;
+    border-radius: 80px;
+    padding: 2px 45px;
     letter-spacing: 1px;
-    margin-left: 75px;
 }
+
+.coderconf-nav-a-button:hover{
+    box-shadow: 2px 0px 73px 2px rgba(248,247,0,0.35);
+    -webkit-box-shadow: 2px 0px 73px 2px rgba(248,247,0,0.35);
+    -moz-box-shadow: 2px 0px 73px 2px rgba(248,247,0,0.35);
+    color: #FEE140 ;
+    transition: 1.5s;
+    
+    
+
+}
+
 
 /*MAIN*/
 
 .coderconf-section-main{
     display: flex;
+    justify-content: space-around;
 }
 .main-image1{
-    width: 50%;
+    margin-top: 3%;
+    width: 30%;
+    height: auto;
 }
 .main-text{
     font-family: 'DM Sans', sans-serif;
@@ -71,36 +93,37 @@
     font-size: 60px;
 }
 
-.bg-rejillas{
+/*FAQ*/
+.section-faq{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+
+.title-faq{
+    color: #C7D027;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+
+.letters-faq{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+
+}
+
+/* .bg-rejillas{
     background-image: url('media/rejilla.png');
     background-repeat: no-repeat;
-    background-size: 1000px;
-}
+    background-size: 1300px 1500px;
+} */
 
-.main-text-daleplay{
-    display: flex;
-    justify-content: space-between;
-}
 
-.main-text-daleplay-letter{
-    font-family: 'DM Sans', sans-serif;
-    color: #C7D027;
-    font-weight: bold;
-    margin-top: 5%;
-    font-size: 150px;
-    margin-left: 10%;
-    letter-spacing: 3px;
-}
-
-.main-image-trianguloplay{
-    width: 75%;
-}
-
-.main-image2{
-    width: 40%;
-    height: auto;
-
-}
 
 .main-numbers{
     display: flex;
@@ -109,6 +132,7 @@
     font-family: 'DM Sans', sans-serif;
     font-size: 170px;
     font-weight: bold;
+    margin-top: 8%;
 
 }
 
@@ -171,11 +195,17 @@
     background-position-x: right;
 }
 
+.triangle-3{
+    margin-top: 7%;
+    width: 30%;
+
+}
+
 /*AGENDA*/
 .cards-agenda{
     display: flex;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .card-speaker{
     border: 1px white solid;
@@ -242,3 +272,91 @@ height: auto;
     color: black;
     cursor: pointer;
 }
+
+
+.dale-play-a-tu-futuro{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.dale-play-logo{
+    width: auto;
+    height: auto;
+}
+
+/*SECTION LOGO Y PARRAFO*/
+.btn-register{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg, #fee140 0%, #FA709A 100%);
+    font-size: 30px;
+    font-weight: bold;
+    border: 0px black solid;
+    border-radius: 40px;
+    padding: 6px 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn-register:hover{
+    box-shadow: 2px 0px 73px 2px rgba(248,247,0,0.35);
+    -webkit-box-shadow: 2px 0px 73px 2px rgba(248,247,0,0.35);
+    -moz-box-shadow: 2px 0px 73px 2px rgba(248,247,0,0.35);
+    color: #FEE140 ;
+    transition: 1s;
+}
+
+.coderconf-event{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+.coderconf-event-box{
+    border: 4px solid; 
+    border-image: linear-gradient(to right, #fee140 0%, #FA709A 100%) 1; 
+}
+
+.coderconf-event-boxletter{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    padding: 70px 75px;
+}
+
+.coderconf-event-letter2{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+/*FOOTER*/
+
+.footer-coderconf{
+    display: flex;
+    justify-content: space-around;
+    background-color: #080b2b;
+    padding: 25px;
+    
+}
+
+.footer-by{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+
+.footer-letter{
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+
